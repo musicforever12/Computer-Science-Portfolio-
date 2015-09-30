@@ -1,0 +1,16 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+    transition: .5s ease-in-out;
+}
+
+#navbar li:hover {
+    transform: rotate(360deg);
+}
+
